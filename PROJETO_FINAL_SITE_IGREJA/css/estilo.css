@@ -1,0 +1,660 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+* {
+    text-decoration: none;
+    box-sizing: border-box; 
+    margin: 0%;
+    padding: 0%;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+/* área total do corpo */
+
+body{ 
+    
+    font-family:roboto, serif;
+    background-color: #ffffff;
+    width: 100%;  
+    height: 100%;  
+}
+
+/* header_MENU */
+
+header#menu_barra{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-wrap: wrap;
+    width: 97%;
+    width: 97%;
+    height: 120px;
+    margin-bottom: 5px;
+    
+}
+nav#menu  {
+    display: flex;
+    justify-content: end;
+    font-family: "EB Garamond", serif;
+    font-weight: 600;
+    gap: 30px;
+    margin-top: 20px;
+    margin-right: 3%;
+}
+
+#a {
+    display: flex;
+    width: 380px;
+    height: 30px;
+    transition-duration: background-color 5s;
+}
+
+/* header_Conteiner_Jesus */
+
+.barra{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 25px;
+  
+}
+
+.logo_barra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    gap:10px;
+    margin-left: 10px;
+
+    
+}
+
+.logo_barra img{
+    width:40px;
+    height:40px;
+}
+
+div.jesus{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+}
+
+h5{
+    font-size: 48px;
+    font-family:roboto, serif;
+    color: #DDB53C;
+}
+
+/* transição do menu */
+
+#a :hover {
+    background-color: #ffbb01;
+}
+
+nav#menu a {
+    color: #000000 ;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* área total do sub-corpo */
+
+.interface{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-wrap: wrap;
+    width: 97%;
+    height: 1050px;
+    background-color: #ffffff;
+    margin-left: 25px;
+    gap: 20px;
+    box-shadow:0px 0px 5px 2px rgba(5, 5, 5, 0.5);
+    border-radius: 5px; 
+    
+}
+
+
+
+/* estrutura main a esquerda*/
+
+section.corpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    height: 99.9%;
+    margin: 0%;
+}
+
+.espaco{
+    margin-left: 5%;
+}
+
+.eventos{
+    
+    background: url(../imagens/_sepulcro.png) no-repeat;
+    
+
+   
+}
+
+hgroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#774D0B;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 20px;
+}
+
+h4{
+    color: #B38F21;
+    font-family: "EB Garamond", serif;
+    font-weight: 550;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#img_semana{
+    width: 550px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 20px;
+    box-shadow:0px 0px 5px 2px rgba(5, 5, 5, 0.5);
+    border:1px transparent black;
+    border-radius: 5px;
+}
+
+h2{
+    font-family: roboto, serif;
+    font-size: 25px;
+    color: #DDB53C;
+    padding-left: 20px;
+}
+
+#img_mes{
+    width: 550px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 20px;
+    box-shadow:0px 0px 5px 2px rgba(5, 5, 5, 0.5);
+    border:1px transparent black;
+    border-radius: 5px;
+}
+
+/* audio e descrição de quem */
+
+
+.dados{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+
+.img_audio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#play{
+    background-color: #ffffff;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.onda{ 
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    width: 250px;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+
+#onda{
+    width: 60px;
+    height: 30px;
+}
+
+#ondabb{
+    width: 0px;
+    height: 30px;
+}
+.quem{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    color: #ffffff;
+    font-family: roboto, serif;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 100px;
+    width: 100%;
+}
+
+#mais{
+    display: flex;
+    color:black;
+    font-family: roboto, serif;
+    font-size: 10px;
+    font-weight: 900;
+    text-decoration: underline;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+/* divisão entre os corpos */
+
+.divisao{
+    height: 100%;
+    border-right: 2px solid rgba(0, 0, 0, 0.5);
+    width: 1%;
+}
+
+/* estrutura aside a direita */
+
+aside.lateral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 100%;
+
+    width: 43%;
+    margin: 0px;
+}
+
+.direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* titulo */
+
+.deus h2#deus{
+    display: flex;
+    font-family: roboto, serif;
+    font-size: 24px;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* barras dos destaques */
+
+.irmas{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    box-shadow:1px 1px 5px 2px rgba(5, 5, 5, 0.5);       
+}
+
+.irmas_a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+    
+}
+
+.jovens{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    box-shadow:1px 1px 5px 2px rgba(5, 5, 5, 0.5);  
+    margin-top: 10px;     
+}
+
+.jovens_a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+}
+
+.criancas{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    box-shadow:1px 1px 5px 2px rgba(5, 5, 5, 0.5);  
+    margin-top: 10px;     
+}
+
+.criancas_a{
+    display: flex;
+    width: 100%;
+    background-color: red;
+}
+
+.oracao{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    box-shadow:1px 1px 5px 2px rgba(5, 5, 5, 0.5);  
+    margin-top: 10px;     
+}
+
+.oracao_a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+}
+
+
+/* descrição dentros dos topicos_ barras */
+
+/* circulo de oração - jovens - criaças - oração */
+
+.irmas_b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.irmas_c{
+    width: 250px;
+    height: 185px;
+    background-color:pink;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: -40px;
+    padding-left: 5px;
+    border-radius: 20px;
+    border: solid rgb(109, 108, 108);
+}
+
+.irmas_c img{
+    width: 240px;
+    height: 180px;
+}
+
+.irmas_b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.jovens_b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.jovens_c{
+    width: 250px;
+    height: 180px;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: -40px;
+    border-radius: 20px;
+}
+
+.jovens_c img{
+    width: 240px;
+    height: 180px;
+}
+
+.criancas_b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 2%;
+}
+
+.criancas_c{
+    width: 250px;
+    height: 180px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: -40px;
+}
+
+.criancas_c img{
+    width: 240px;
+    height: 180px;
+}
+
+
+/* fontes para padrão para destaques */
+
+h3#barras{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: roboto, serif;
+    color: #DDB53C;
+    padding: 5px;
+}
+
+h3#dia{
+    font-size: 20px;
+    font-family: roboto, serif;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-left: 10%;
+
+}
+
+p#tma{
+    font-size: 14px;
+    font-family: roboto, serif;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+span#tme{
+    font-size: 13px;
+    font-family: roboto, serif;
+    color: black;
+    font-weight: 500;
+
+}
+
+p#tm{
+    font-size: 10px;
+    font-family: roboto, serif;
+    color: black;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+
+span#tmaior{
+    font-size: 12px;
+    font-family: roboto, serif;
+    color: black;
+    font-weight: 600;
+}
+
+
+/* rodape */
+
+footer{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow:1px 5px 5px 2px rgba(5, 5, 5, 0.5);
+    width: 97%;
+    height: 100%;
+    margin: -18px 20px 20px 20px;
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    font-family:roboto, serif;
+    background-color: #ffffff;
+    padding-top: -10px; 
+    padding: 10px;
+}
+
+   /* logo preto com copyright */
+
+.logo_geral{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5px; 
+}
+
+#logo_rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+}
+
+#logo_rodape img{
+    width:50px;
+    height:50px;
+}
+
+#copy{  
+    font-family:roboto, serif;
+    width: 150px;
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+/* razão social */
+
+#razao{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+h3{
+    font-family:roboto, serif;
+    font-size: 15px;
+    font-weight: 530;
+    padding-top: 10px;
+}
+
+span{
+    font-family:roboto, serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-self:center;
+    margin:-18px;
+    margin-right: 5px;
+}
+
+/* pix por cnpj */
+
+.pix{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 10px;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+#icone_pix{
+    display: flex;
+    width:90px;
+    height:75px;
+}
+
+.pix p{
+    font-family:roboto, serif;
+    font-size: 12px;
+    font-weight: 530;
+}
+
+/* pix por qr code */
+
+.pix_rodape{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; 
+    margin-top: 15px;
+    
+}
+
+#code{
+    width:60px;
+    height:60px;
+}
+
+#doe{
+    font-family:roboto, serif;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
