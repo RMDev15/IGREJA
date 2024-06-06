@@ -26,14 +26,12 @@ body{
 
 /* header_MENU */
 
-header#menu_barra{
+.menu_barra{
     display: flex;
     flex-flow: column nowrap;
     flex-wrap: wrap;
     width: 97%;
-    width: 97%;
     height: 120px;
-    margin-bottom: 5px;
     
 }
 nav#menu  {
@@ -43,6 +41,7 @@ nav#menu  {
     font-weight: 600;
     gap: 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-right: 3%;
 }
 
@@ -59,7 +58,7 @@ nav#menu  {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 97%;
     height: 70px;
     background-color: red;
     border-radius: 5px;
@@ -126,6 +125,7 @@ nav#menu a:hover {
     height: 1050px;
     background-color: #ffffff;
     margin-left: 25px;
+    margin-top: 5px;
     gap: 20px;
     box-shadow:0px 0px 5px 2px rgba(5, 5, 5, 0.5);
     border-radius: 5px; 
@@ -294,7 +294,6 @@ aside.lateral{
     flex-flow: column;
     flex-wrap: wrap;
     width: 100%;
-
     width: 43%;
     margin: 0px;
 }
@@ -534,7 +533,7 @@ footer{
     box-shadow:1px 5px 5px 2px rgba(5, 5, 5, 0.5);
     width: 97%;
     height: 100%;
-    margin: -18px 20px 20px 20px;
+    margin: 1px 20px 20px 25px;
     
 }
 
@@ -545,6 +544,11 @@ footer{
     background-color: #ffffff;
     padding-top: -10px; 
     padding: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
 }
 
    /* logo preto com copyright */
@@ -554,7 +558,7 @@ footer{
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    margin: 5px; 
+    gap: 5px;
 }
 
 #logo_rodape{
